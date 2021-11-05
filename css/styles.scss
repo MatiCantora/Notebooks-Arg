@@ -131,6 +131,7 @@ $color: body1;
         padding: 15px;
         border: 1px solid $negro;
         border-radius: 15px;
+        width: 40%;
     }
 
     .contacto__espacio {
@@ -145,6 +146,23 @@ $color: body1;
 
 button.navbar-toggler {
     order: 1;
+}
+
+.form-check {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.checkbox {
+    display: flex;
+    gap: 0.5rem;
+
+    input {
+        width: 10rem;
+    }
+
 }
 
 /* Estilos */
@@ -167,6 +185,16 @@ h1 {
 
 select {
     width: 100%;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    height: 8rem;
 }
 
 // Bucle 
