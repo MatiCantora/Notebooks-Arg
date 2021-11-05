@@ -137,6 +137,15 @@ $color: body1;
     }
 }
 
+.compras{
+    order: 0;
+    padding: 10px;
+}
+
+button.navbar-toggler {
+    order: 1;
+}
+
 /* Estilos */
 header {
     position: sticky;

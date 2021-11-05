@@ -160,6 +160,19 @@
   margin-bottom: 10px;
 }
 
+.compras {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  padding: 10px;
+}
+
+button.navbar-toggler {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
 /* Estilos */
 header {
   position: -webkit-sticky;
