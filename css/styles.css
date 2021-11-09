@@ -195,3 +195,9 @@ body.dark {
   color: #dbd8e3; }
   body.dark div.card {
     background-color: #352f44; }
+  body.dark div.carta {
+    background-color: #352f44; }
+  body.dark div.contacto__box {
+    background-color: #352f44; }
+  body.dark input {
+    background-color: #dbd8e3; }
