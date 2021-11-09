@@ -1,209 +1,259 @@
 /* Header y footer */
-$gris: #ADB5BD;
+$gris: #adb5bd;
 /* Fonts */
 $negro: #000;
 /* Body color */
-$blanco: #E8F1F2;
+$blanco: #e8f1f2;
 
 $color: body1;
 
 /* General */
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* Class */
 .fonts {
-    font-family: 'Bebas Neue', sans-serif;
+	font-family: "Bebas Neue", sans-serif;
 }
 
 .footer {
-    background-color: $gris;
-    height: 10vh;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 0;
+	background-color: $gris;
+	height: 10vh;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 0;
 
-    .footer__redes {
-        display: flex;
-
-    }
+	.footer__redes {
+		display: flex;
+	}
 }
 
 .navbarbgc {
-    background-color: $gris;
+	background-color: $gris;
 }
 
 .noMargin {
-    margin: 0;
+	margin: 0;
 }
 
 .page-wrapper {
-    padding-top: 5%;
-    display: flex;
-    -webkit-display: flex;
-    justify-content: space-around;
+	padding-top: 5%;
+	display: flex;
+	-webkit-display: flex;
+	justify-content: space-around;
 }
 
 .card-1 {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .card-1:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .carta {
-    background-color: #fff;
-    margin: 15px;
-    width: 300px;
-    height: 280px;
-    padding: 10px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    box-sizing: border-box;
-    overflow: hidden;
+	background-color: #fff;
+	margin: 15px;
+	width: 300px;
+	height: 280px;
+	padding: 10px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	box-sizing: border-box;
+	overflow: hidden;
 
-    .carta * {
-        transition: 0.3s ease all;
-    }
+	.carta * {
+		transition: 0.3s ease all;
+	}
 
-    .carta__img {
-        margin-bottom: 45px;
-        object-fit: cover;
-        display: block;
-    }
+	.carta__img {
+		margin-bottom: 45px;
+		object-fit: cover;
+		display: block;
+	}
 
-    .carta__titulo {
-        margin: 0;
-        padding: 12px 12px 48px;
-        line-height: 32px;
-        font-weight: 500;
-        font-size: 20px;
-    }
+	.carta__titulo {
+		margin: 0;
+		padding: 12px 12px 48px;
+		line-height: 32px;
+		font-weight: 500;
+		font-size: 20px;
+	}
 
-    .carta__focus {
-        display: block;
-        padding: 8px 12px;
-    }
+	.carta__focus {
+		display: block;
+		padding: 8px 12px;
+	}
 
-    .carta__texto {
-        margin: 0;
-        line-height: 1.5;
-    }
+	.carta__texto {
+		margin: 0;
+		line-height: 1.5;
+	}
 }
-
-
 
 .carta:hover img,
 .carta:focus-within img {
-    margin-top: -80px;
+	margin-top: -80px;
 }
 
 .carta:hover h3,
 .carta:focus-within h3 {
-    padding: 8px 12px 0;
+	padding: 8px 12px 0;
 }
 
 .contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30 px;
-    flex-wrap: nowrap;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30 px;
+	flex-wrap: nowrap;
+	align-items: center;
 
-    .contacto__titulo {
-        text-align: center;
-    }
+	.contacto__titulo {
+		text-align: center;
+	}
 
-    .contacto__texto {
-        text-align: center;
-    }
+	.contacto__texto {
+		text-align: center;
+	}
 
-    .contacto__box {
-        background-color: $gris;
-        margin: 5px;
-        padding: 15px;
-        border: 1px solid $negro;
-        border-radius: 15px;
-        width: 40%;
-    }
+	.contacto__box {
+		background-color: $gris;
+		margin: 5px;
+		padding: 15px;
+		border: 1px solid $negro;
+		border-radius: 15px;
+		width: 40%;
+	}
 
-    .contacto__espacio {
-        margin-bottom: 10px
-    }
+	.contacto__espacio {
+		margin-bottom: 10px;
+	}
 }
 
 .compras {
-    order: 0;
-    padding: 10px;
+	color: #000;
+	order: 0;
+	padding: 10px;
 }
 
 button.navbar-toggler {
-    order: 1;
+	order: 1;
 }
 
 .form-check {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
 }
 
 .checkbox {
-    display: flex;
-    gap: 0.5rem;
+	display: flex;
+	gap: 0.5rem;
 
-    input {
-        width: 10rem;
-    }
-
+	input {
+		width: 10rem;
+	}
 }
 
 /* Estilos */
 header {
-    position: sticky;
-    top: 0;
-    z-index: 99;
+	position: sticky;
+	top: 0;
+	z-index: 99;
 }
 
 footer i {
-    margin: 5px;
-    height: 100%;
-    color: #000
+	margin: 5px;
+	height: 100%;
+	color: #000;
 }
 
 h1 {
-    text-align: center;
-    padding: 0.5em;
+	text-align: center;
+	padding: 0.5em;
 }
 
 select {
-    width: 100%;
+	width: 100%;
 }
 
 input {
-    width: 100%;
-    margin-bottom: 8px;
+	width: 100%;
+	margin-bottom: 8px;
 }
 
 textarea {
-    width: 100%;
-    height: 8rem;
+	width: 100%;
+	height: 8rem;
 }
 
-// Bucle 
+// Bucle
 body {
-    @if ($color==body1) {
-        background-color: $blanco;
-    }
+	@if ($color==body1) {
+		background-color: $blanco;
+	} @else {
+		background-color: white;
+	}
+}
 
-    @else {
-        background-color: white;
-    }
+.darkModeSwitch {
+	background-color: $gris;
+	display: flex;
+	position: fixed;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid $blanco;
+	border-radius: 1rem;
+	align-items: center;
+	justify-content: space-between;
+	bottom: 20px;
+	left: 25px;
+	z-index: 99;
+}
+
+.darkModeSwitch span {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	color: #fff;
+	background: none;
+}
+
+.darkModeSwitch::after {
+	display: block;
+	background-color: #fffbf5;
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: unset;
+	border-radius: 3rem;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+	content: "";
+}
+
+.darkModeSwitch.active {
+	background-color: #fdd384;
+}
+.darkModeSwitch.active::after {
+	left: unset;
+	right: 0;
+}
+
+body.dark {
+	background-color: #2a2438;
+	color: #dbd8e3;
+	div.card {
+		background-color: #352f44;
+	}
 }
