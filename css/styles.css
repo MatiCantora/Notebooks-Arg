@@ -33,6 +33,9 @@
   -webkit-display: flex;
   justify-content: space-around; }
 
+.card {
+  margin: 10px; }
+
 .card-1 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
@@ -40,12 +43,15 @@
 .card-1:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
+.row > * {
+  padding-right: calc(var(--bs-gutter-x) * 0.01);
+  padding-left: calc(var(--bs-gutter-x) * 0.01); }
+
 .carta {
   background-color: #fff;
   margin: 15px;
   width: 325px;
   height: 325px;
-  padding: 10px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   box-sizing: border-box;
@@ -70,7 +76,7 @@
 
 .carta:hover img,
 .carta:focus-within img {
-  margin-top: -100px; }
+  margin-top: -110px; }
 
 .carta:hover h3,
 .carta:focus-within h3 {
@@ -169,6 +175,8 @@ body.dark {
     background-color: #352f44; }
   body.dark div.contacto__box {
     background-color: #352f44; }
+  body.dark iframe {
+    border: 10px solid #352f44; }
 
 /* Estilos */
 header {
@@ -195,6 +203,10 @@ input {
 textarea {
   width: 100%;
   height: 8rem; }
+
+iframe {
+  border: 10px solid #adb5bd;
+  margin-bottom: 20px; }
 
 body {
   background-color: #e8f1f2; }
